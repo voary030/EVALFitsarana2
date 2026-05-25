@@ -1,0 +1,66 @@
+export interface OrderRow {
+    id: number
+    product_id: number
+    product_attribute_id: number
+    product_quantity: number
+    product_name: string
+    product_reference: string
+    product_ean13: string
+    product_isbn: string
+    product_upc: string
+    product_price: number
+    id_customization: number
+    unit_price_tax_incl: number
+    unit_price_tax_excl: number
+}
+
+export interface Order {
+    id: number
+    id_address_delivery: number
+    id_address_invoice: number
+    id_cart: number
+    id_currency: number
+    id_lang: number
+    id_customer: number
+    id_carrier: number
+    current_state: number
+    module: string
+    invoice_number: number
+    invoice_date: string
+    delivery_number: number
+    delivery_date: string
+    valid: number
+    date_add: string
+    date_upd: string
+    shipping_number: string
+    note: string
+    id_shop_group: number
+    id_shop: number
+    secure_key: string
+    payment: string
+    recyclable: number
+    gift: number
+    gift_message: string
+    mobile_theme: number
+    total_discounts: number
+    total_discounts_tax_incl: number
+    total_discounts_tax_excl: number
+    total_paid: number
+    total_paid_tax_incl: number
+    total_paid_tax_excl: number
+    total_paid_real: number
+    total_products: number
+    total_products_wt: number
+    total_shipping: number
+    total_shipping_tax_incl: number
+    total_shipping_tax_excl: number
+    carrier_tax_rate: number
+    total_wrapping: number
+    total_wrapping_tax_incl: number
+    total_wrapping_tax_excl: number
+    round_mode: number
+    round_type: number
+    conversion_rate: number
+    reference: string
+    order_rows?: OrderRow[]
+}

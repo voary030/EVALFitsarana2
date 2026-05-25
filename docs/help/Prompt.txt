@@ -1,0 +1,3 @@
+Je suis en mode ask : ne pas modifier le code mais preciser quelle ligne et quel fichier 
+toucher pour implmenter des fonctionnaliter: JAI BIEN dit la ligne et fichier , et donner le code a implementer 
+ensuite

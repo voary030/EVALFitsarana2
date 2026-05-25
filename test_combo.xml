@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prestashop xmlns:xlink="http://www.w3.org/1999/xlink">
+    <combination>
+        <id_product><![CDATA[64]]></id_product>
+        <reference><![CDATA[T_01_test]]></reference>
+        <price><![CDATA[10.000000]]></price>
+        <minimal_quantity><![CDATA[1]]></minimal_quantity>
+        <associations>
+            <product_option_values>
+                <product_option_value>
+                    <id><![CDATA[29]]></id>
+                </product_option_value>
+            </product_option_values>
+        </associations>
+    </combination>
+</prestashop>
